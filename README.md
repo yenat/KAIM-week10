@@ -66,3 +66,29 @@ Key findings from the impact analysis and time series modeling were summarized t
 ## Conclusion
 
 This project provides a comprehensive analysis of Brent oil prices, leveraging time series modeling and impact analysis to understand the effects of significant events. The findings offer valuable insights into the behavior of oil prices and can inform future research and decision-making.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yenat/KAIM-week10.git
+   cd KAIM-week10
+   pip install -r requirements.txt
+   python app.py
+   python dashboard.py
+   ```
+   Open a web browser and navigate to http://127.0.0.1:5002 to view the dashboard.
+
+2. For further analysis:
+   ``` bash
+   
+    cd KAIM-week89
+    jupyter notebook notebooks/EDA.ipynb
+    jupyter notebook notebooks/time_series_analysis.ipynb
+    jupyter notebook notebooks/impact_analysis.ipynb
+    jupyter notebook notebooks/task2_analysis.ipynb
+
+    ```
+
+
+
